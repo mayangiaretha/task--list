@@ -12,6 +12,5 @@ app.use('/items', itemsRoutes);
 app.get('/', (req, res) => res.json('task completed'));
 
 app.listen(PORT, () =>
-  console.log(`server Running on port: http://localhost:${PORT}`)
+    console.log(`server Running on port: http://localhost:${PORT}`)
 );
-
